@@ -3,16 +3,18 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>Todo's</title>
+	<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
 	<link href="http://fonts.googleapis.com/css?family=Terminal+Dosis" rel="stylesheet" type="text/css" />
 	<link href="styles.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
+<a href='#new' id="newcat">New Category</a>
 <ul class="tabs"></ul>
 <div class="leftPanel">
 	<ul>
 		<li><a href="#todos" id="todolink">Todo's<span>0</span></a></li>
 		<li><a href="#done" id="donelink">Done<span>0</span></a></li>
-    </ul>
+	</ul>
 	<div class="leftPanelFooter">
 		<ul>
 	    	<li><a href="#done" id="trash"><img src="/img/TrashIconEmpty.png" width="24px" height="24px">Trash<span>0</span></a></li>
@@ -25,7 +27,7 @@
 			<ul class="todoList"></ul>
 			<div class="footerPanel">
 				<ul>
-					<li><a class="addButton" href="#">New</a></li>
+					<li><a class="addButton" href="#">New Todo</a></li>
 				</ul>
 			</div>
 		</div>
